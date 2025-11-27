@@ -1,0 +1,6 @@
+/.venv
+/check_gpu.py
+/mlops
+/test_backend.py
+backend/FastVLM-0.5B/
+backend/venv/
