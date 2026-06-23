@@ -1,6 +1,65 @@
+# Remote rules
 /.venv
 /check_gpu.py
 /mlops
 /test_backend.py
 backend/FastVLM-0.5B/
 backend/venv/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+/backend/.venv/
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific logs and temporary files
+frontend/build_log.txt
+backend/pip_debug.txt
+backend/python_info.txt
+frontend/version.txt
